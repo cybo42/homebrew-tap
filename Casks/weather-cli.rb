@@ -3,7 +3,7 @@ cask "weather-cli" do
   name "weather-cli"
   desc "A CLI to get weather forecasts."
   homepage "https://github.com/cybo42/weather-cli2"
-  version "1.2.16"
+  version "1.2.17"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "weather-cli" do
     on_intel do
       url "https://github.com/cybo42/weather-cli2/releases/download/v#{version}/weather-cli_darwin_amd64.tar.gz",
         verified: "github.com/cybo42/weather-cli2/"
-      sha256 "10136050c0f6b38afeaf1bc00ff229c914a4a6e3b6e4e0deeedc3a7a21c00ffa"
+      sha256 "f208f9e1954fdc7262e3b453ea90701c199e1521182939d236601d265a0f27e1"
     end
     on_arm do
       url "https://github.com/cybo42/weather-cli2/releases/download/v#{version}/weather-cli_darwin_arm64.tar.gz",
         verified: "github.com/cybo42/weather-cli2/"
-      sha256 "6fcc894cbb342b9cd5654252235bda475133f5a6657d7fc650b23f6e43f43d0d"
+      sha256 "a937152db40dfb1e1e67b7878b2dd72780e12a514dcfb9455d865a0325161ddb"
     end
   end
 
@@ -28,12 +28,12 @@ cask "weather-cli" do
     on_intel do
       url "https://github.com/cybo42/weather-cli2/releases/download/v#{version}/weather-cli_linux_amd64.tar.gz",
         verified: "github.com/cybo42/weather-cli2/"
-      sha256 "9460ce1fb4c986c7fe522e7aafe85d3fb5ea749658bc061bd3ef9b7016e6382a"
+      sha256 "9d8b0f614009d2d8ef2ee75c8345d2f8141a1433aed0db5a69e30fa2b00897fb"
     end
     on_arm do
       url "https://github.com/cybo42/weather-cli2/releases/download/v#{version}/weather-cli_linux_arm64.tar.gz",
         verified: "github.com/cybo42/weather-cli2/"
-      sha256 "e3c59694fcb010475d7dd2a8a50895631f375244c17136e5d0c36e6a586d4819"
+      sha256 "aea0c24f86059e9c6b10f0ea14a1c974dfa680c5d0a0f1f6696d63f8f0657b24"
     end
   end
 
